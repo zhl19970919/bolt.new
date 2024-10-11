@@ -4,5 +4,5 @@ compatibility_flags = ["nodejs_compat"]
 compatibility_date = "2024-07-01"
 pages_build_output_dir = "./build/client"
 
-[env.production]
+[env]
 api_token = "${CLOUDFLARE_API_TOKEN}" # 从环境变量读取
