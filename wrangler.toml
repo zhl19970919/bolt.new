@@ -3,8 +3,6 @@ name = "bolt"
 compatibility_flags = ["nodejs_compat"]
 compatibility_date = "2024-07-01"
 pages_build_output_dir = "./build/client"
-account_id = "b70ca122fe758060be04df4e8fb94193"
 
 [env.production]
-account_id = "b70ca122fe758060be04df4e8fb94193"
 api_token = "${CLOUDFLARE_API_TOKEN}" # 从环境变量读取
